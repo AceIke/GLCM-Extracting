@@ -37,3 +37,26 @@ GLCM-Extracting/
 操作系统：Windows 10/11
 编译器：Visual Studio 2022 (支持C++17)
 依赖库：OpenCV 4.x
+
+方式一：Visual Studio(2022/2026)
+克隆仓库
+bashgit clone https://github.com/AceIke/GLCM-Extracting.git
+cd GLCM-Extracting
+配置OpenCV环境变量
+OPENCV_DIR = C:\opencv\build
+用Visual Studio打开项目，配置包含目录和库目录，编译运行
+
+方式二：CMake
+bashmkdir build && cd build
+cmake ..
+cmake --build . --config Release
+./GLCM-Extracting
+
+📄 License
+本项目采用 MIT License 开源协议。
+
+🤝 贡献
+欢迎提交Issue和Pull Request！
+作者：谭鸿枭
+邮箱：2024302131175@whu.edu.cn
+学校：武汉大学
